@@ -1,0 +1,29 @@
+# Docker
+.dockerignore
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# iReport/JasperReports
+*.jasper
+*.class
+*.log
+*.tmp
+
+# Reports directory - keep structure but ignore compiled reports
+reports/*.jasper
+reports/**/*.jasper
+
+# Reference files (can be removed after setup)
+reference-repo.zip
+run-ireport-2.0.2-on-mac-main/
