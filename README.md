@@ -68,7 +68,7 @@ xhost - 127.0.0.1
 
 ## Features
 
-- **Java 8 Support**: Built with OpenJDK 8 for optimal compatibility
+- **Java 7 Support**: Built with OpenJDK 7 for optimal compatibility with iReport 5.6.0
 - **X11 Display Optimization**: Configured for smooth operation with XQuartz on macOS
 - **Font Rendering**: Anti-aliasing enabled for better text display
 - **Volume Mapping**: Your reports directory is automatically mapped to the container
@@ -86,7 +86,7 @@ xhost - 127.0.0.1
 - Check Docker permissions and ensure Docker Desktop is running
 
 ### Java Issues
-- The container uses OpenJDK 8 which is compatible with iReport 5.6.0
+- The container uses OpenJDK 7 which is required for iReport 5.6.0 compatibility
 - Display-related Java options are pre-configured for optimal performance
 
 ## Requirements
